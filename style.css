@@ -1,0 +1,54 @@
+body
+{
+  color: rgb(126, 153, 194);
+}
+
+h1
+{
+  font-family: 'Special Elite', fantasy;
+  color:rgb(38, 144, 158);
+  background-color: rgb(175, 230, 255);
+}
+
+#show_sketch
+{
+  float:right;
+}
+
+#score 
+{
+  margin-left: 20px;
+}
+
+#timer 
+{
+  margin-right: 20px;
+  float: right;
+}
+
+canvas 
+  {
+    border:3px solid rgb(204, 230, 222);
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px rgb(0, 26, 255);
+    box-shadow: 1px 1px 38px #00ffdd;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
